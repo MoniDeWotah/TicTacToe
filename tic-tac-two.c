@@ -12,7 +12,6 @@ int checkFull(char board[SIZE][SIZE]); // Check how full the board is
 int main()
 {
     char board[SIZE][SIZE]; 
-    char garb;
     int flag = 0, row, col;
     char currentPlayer = 'X';
     int game = 0; // 1 if the game is won, 0 otherwise
